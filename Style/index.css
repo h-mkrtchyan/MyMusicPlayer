@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+}
+
+.progBar div {
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+    font-family: Monospaced;
+    color: #101010;
+    font-size: 500%;
+}
+
+.navbar {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    /*top: 50%;*/
+    left: 30%;
+    background-color: #101010;
+    opacity: 0.8;
+}
+
+/*.progBar {*/
+    /*position: absolute;*/
+   /**/
+    /*top: 75%;*/
+    /*left: 50%;*/
+    /*background-color: yellow;*/
+
+
+#play {
+    display: block;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 1%;
+    background-image: url("images/ic_play_arrow_white_48dp_1x.png");
+}
+
+.pause {
+    display: none;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 1%;
+    background-image: url("images/ic_pause_white_48dp_1x.png");
+}
+
+#stop {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 7%;
+    background-image: url("images/ic_stop_white_48dp_1x.png");
+}
+
+#prev {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 14%;
+    background-image: url("images/ic_skip_previous_white_48dp_1x.png");
+}
+
+#next {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 21%;
+    background-image: url("images/ic_skip_next_white_48dp_1x.png");
+}
+
+
+#volDown {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 78%;
+    background-image: url("images/ic_volume_down_white_48dp_1x.png");
+}
+
+#volUp {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 85%;
+    background-image: url("images/ic_volume_up_white_48dp_1x.png");
+}
+
+#mute {
+    display: none;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 92%;
+    background-image: url("images/ic_volume_mute_white_48dp_1x.png");
+}
+
+#volOff {
+    display: block;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 75%;
+    left: 92%;
+    background-image: url("images/ic_volume_off_white_48dp_1x.png");
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #179482;
+}
+#footer_center h5{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    font-family: myFontContent;
+    font-size: 200%;
+    color: #FFFFFF;
+}
+#foot{
+    position: relative;
+}
+#footer_logo{
+    position: absolute;
+    margin-top: 2%;
+    left: 48%;
+    width: 80px;
+}
+#copyright{
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family: myFontContent;
+    font-size: 100%;
+    font-weight: bold;
+    color: #B2EBF2;
+}
+#footer_center span{
+    color: #FFFFFF;
+}
+
+#foot{
+    position: relative;
+    /* height: 500px; */
+    display: block;
+    margin-top: 751px;
+}
+
+#sp {
+    color: red;
+}
